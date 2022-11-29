@@ -1,0 +1,4 @@
+{
+  "num_workers": 4,
+  "pin_memory": true
+}

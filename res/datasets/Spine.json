@@ -1,0 +1,18 @@
+{
+  "name": "Spine",
+  "paths": {
+    "source": "../../datasets/spine/data_300.npy",
+    "target": "../../datasets/spine/label_dp_300.npy"
+  },
+  "series_per_data": [100, 20, 20],
+  "train_test_range": [45, 12, 11],
+  "frame_rate": [2, 11],
+  "source": {
+    "width": 300,
+    "height": 300,
+    "channel": 6
+  },
+  "target": {
+    "elements": 15
+  }
+}
