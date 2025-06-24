@@ -5,10 +5,9 @@ This repository is the official implementation for "[RecON: Online Learning for 
 ## Environment
 - PyTorch with GPU
 - OpenCV-Python build from CUDA
-- Run ` pip install -r requirements.txt`
+- Run `pip install -r requirements.txt`
 
 ## Training
-
 - Backbone
     ```shell
     python3 -m main -m online_bk -d Spine -r hp_bk -g0
