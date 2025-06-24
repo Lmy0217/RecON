@@ -1,0 +1,4 @@
+{
+  "name": "Online_Discriminator",
+  "backbone_weight": "./save/online_bk-hp_bk-Spine/online_bk_backbone_last.pth"
+}

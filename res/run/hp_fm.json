@@ -1,0 +1,11 @@
+{
+  "name": "hp_framework",
+  "batch_size": 1,
+  "test_batch_size": 1,
+  "epochs": 0,
+  "save_step": 1,
+  "ol_epochs": 30,
+  "lr_psc": 5e-6,
+  "lr_fcc_gas": 5e-7,
+  "betas": [0.9, 0.999]
+}

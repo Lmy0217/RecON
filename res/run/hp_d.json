@@ -1,0 +1,11 @@
+{
+  "name": "hp_discriminator",
+  "batch_size": 1,
+  "test_batch_size": 1,
+  "epochs": 50,
+  "save_step": 1,
+  "lr": 1e-4,
+  "betas": [0.9, 0.999],
+  "step_size": 30,
+  "gamma": 0.5
+}

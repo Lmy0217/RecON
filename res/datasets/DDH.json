@@ -1,0 +1,24 @@
+{
+  "name": "DDH",
+  "paths": {
+    "source": "../../datasets/3D_DDH/all",
+    "order": "../../datasets/3D_DDH/all.npy"
+  },
+  "series_per_data": [40, 20, 20],
+  "series_min_length": 90,
+  "series_max_length": 90,
+  "ps": 3,
+  "train_test_range": [135, 16, 18],
+  "frame_rate": [1, 10],
+  "load_mode": "memory",
+  "source": {
+    "width": 300,
+    "height": 300,
+    "channel": 6,
+    "origin": [185, 250, 199],
+    "max_distance": [160, 60, 120]
+  },
+  "target": {
+    "elements": 15
+  }
+}

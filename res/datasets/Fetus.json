@@ -1,0 +1,24 @@
+{
+  "name": "Fetus",
+  "paths": {
+    "source": "../../datasets/us_pose_data/imgs_trans_128",
+    "order": "../../datasets/us_pose_data/Fetus_order_128.npy"
+  },
+  "series_per_data": [60, 20, 20],
+  "series_min_length": 90,
+  "series_max_length": 90,
+  "ps": 1,
+  "train_test_range": [98, 15, 15],
+  "frame_rate": [1, 10],
+  "load_mode": "memory",
+  "source": {
+    "width": 300,
+    "height": 300,
+    "channel": 6,
+    "origin": [232, 262, 274],
+    "max_distance": [100, 50, 50]
+  },
+  "target": {
+    "elements": 15
+  }
+}

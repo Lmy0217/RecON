@@ -1,0 +1,12 @@
+{
+  "name": "Online_Framework",
+  "backbone_weight": "./save/online_bk-hp_bk-Spine/online_bk_backbone_last.pth",
+  "discriminator_weight": "./save/online_d-hp_d-Spine/online_d_discriminator_last.pth",
+  "discriminator_opt_cycle": 5,
+  "down_ratio": 0.3,
+  "psc_epoch": 3,
+  "psc_threshold": 0.4,
+  "psc_max_acquisition": 20,
+  "reco_rate": 0.5,
+  "weight_fcc": 0.01
+}
