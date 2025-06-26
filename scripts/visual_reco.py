@@ -37,8 +37,8 @@ if __name__ == '__main__':
 
     n = len(os.listdir(dir_save)) // 2
     for idx in range(0, n):
-        source = torch.load(os.path.join(dir_save, 'source_' + str(idx) + '.npy'), map_location=device)
-        value = torch.load(os.path.join(dir_save, 'value_' + str(idx) + '.npy'), map_location=device)
+        source = torch.load(os.path.join(dir_save, 'source_' + str(idx) + '.pth'), map_location=device)
+        value = torch.load(os.path.join(dir_save, 'value_' + str(idx) + '.pth'), map_location=device)
 
         volume_real = utils.reconstruction.reco(source[0].squeeze(0).squeeze(1), value['real_series'].detach())
         volume = utils.reconstruction.reco(source[0].squeeze(0).squeeze(1), value['fake_series'][-1].detach())

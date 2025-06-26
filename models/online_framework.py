@@ -216,7 +216,7 @@ class Online_Framework(models.BaseModel):
         if not os.path.exists(path):
             os.makedirs(path)
         source = value.pop('real_source')
-        torch.save(source, os.path.join(path, 'source_' + str(epoch_info['index'].item()) + '.npy'))
-        torch.save(value, os.path.join(path, 'value_' + str(epoch_info['index'].item()) + '.npy'))
+        torch.save(source, os.path.join(path, 'source_' + str(epoch_info['index'].item()) + '.pth'))
+        torch.save(value, os.path.join(path, 'value_' + str(epoch_info['index'].item()) + '.pth'))
 
         return {}

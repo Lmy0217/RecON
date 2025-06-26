@@ -5,7 +5,7 @@
   "run_cfgs_folder": "res/run",
   "save_folder": "save",
   "check_file": "_checkpoint.pth",
-  "loss_file": "_loss.pth",
-  "predict_file": "_predict.pth",
+  "loss_file": "_loss.npy",
+  "predict_file": "_predict.npy",
   "logging_file": "_logging.log"
 }

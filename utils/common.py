@@ -10,6 +10,7 @@ __all__ = ['set_seed', 'merge_dict', 'get_filename', 'get_path', 'real_config_pa
 
 
 def set_seed(seed=0):
+    seed = int(seed)
     torch.manual_seed(seed)
     torch.cuda.manual_seed(seed)
     torch.cuda.manual_seed_all(seed)
